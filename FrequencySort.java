@@ -5,7 +5,8 @@ public class FrequencySort {
         int[] arr = {2, 3, 2, 4, 5, 12, 2, 3, 3, 3, 12};
         System.out.println(Arrays.toString(frequencySort(arr)));
         int[] arr2 = {4, 4, 2, 2, 2, 2, 3, 3, 1, 1, 6, 7, 5};
-        System.out.println(Arrays.toString(frequencySort(arr2)));    }
+        System.out.println(Arrays.toString(frequencySort(arr2)));
+    }
     public static int[] frequencySort(int[] arr) {
         Map<Integer, Integer> freqMap = new HashMap<>();
         for (int num : arr) {
